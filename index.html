@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Product List -->
+    <div class="product-list" id="product-list"></div>
+
+    <!-- Cart Summary -->
+    <div class="cart-summary">
+      <h2>Cart Summary</h2>
+      <div id="cart-items"></div>
+      <p>Subtotal: $<span id="subtotal">0.00</span></p>
+      <p>Discount: $<span id="discount">0.00</span></p>
+      <p>Total: $<span id="total">0.00</span></p>
+      <input type="text" id="promo-code" placeholder="Enter Promo Code">
+      <button id="apply-promo">Apply Promo Code</button>
+      <button id="clear-cart">Clear Cart</button>
+      <button id="checkout">Checkout</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
